@@ -14,12 +14,13 @@
 
 1. Clone this repository by clicking on **Code** > **Download Zip**.
 2. Unzip the downloaded Zip file.
-3. Go inside the folder and locate `ControllerStateTransmitter.ino` and open it in Arduino IDE.
-4. Modify the `R24_ADDRESS` to a custom 5-character string of your choice. This string is used to identify and pair the controller with the corresponding transceiver in your mobot. Ensure that the string is identical on both the [controller](https://github.com/thinklabph/ControllerStateTransmitter) and [mobot](https://github.com/thinklabph/ControllerStateReceiver) for successful pairing.
-5. Set the Board by clicking on **Tools** > **Board** > **Seeed SAMD Boards** > **Seeeduino XIAO**.
-6. Set the Port to the micronctoller of the controller.
-7. Upload.
-8. Open Serial Monitor and set to **115200 baud**
+3. Remove the `-main` in the folder.
+4. Go inside the folder and locate `ControllerStateTransmitter.ino` and open it in Arduino IDE.
+5. Modify the `R24_ADDRESS` to a custom 5-character string of your choice. This string is used to identify and pair the controller with the corresponding transceiver in your mobot. Ensure that the string is identical on both the [controller](https://github.com/thinklabph/ControllerStateTransmitter) and [mobot](https://github.com/thinklabph/ControllerStateReceiver) for successful pairing.
+6. Set the Board by clicking on **Tools** > **Board** > **Seeed SAMD Boards** > **Seeeduino XIAO**.
+7. Set the Port to the micronctoller of the controller.
+8. Upload.
+9. Open Serial Monitor and set to **115200 baud**
 
 
 ## Refrences
